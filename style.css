@@ -13,6 +13,7 @@ body{
 .titulo{
     font-style: italic;
     font-size: 16px;
+    cursor: pointer;
 }
 .caixa{
     max-width: 1000px;
@@ -42,3 +43,10 @@ body{
       filter: hue-rotate(360deg);
     }
   }
+
+.caixona{
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) ;
+  border-radius:100px;
+  margin: 40px;
+}
